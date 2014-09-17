@@ -1,0 +1,436 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Apartment Lineup</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300|Roboto:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet"  href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet"  href="css/style.css" type="text/css">
+</head>
+
+<body>
+<header>
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<div class="logo"></div>
+                <div class="user-pic dropdown navbar-right">
+                        <a href="#" data-toggle="dropdown" role="button" id="drop4"><img src="images/5.jpg"></a>
+                        <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
+                          <li role="presentation"><a href="http://twitter.com/fat" tabindex="-1" role="menuitem">Settings</a></li>
+                          <li role="presentation"><a href="http://twitter.com/fat" tabindex="-1" role="menuitem">Account Settings</a></li>
+                          <li role="presentation"><a href="http://twitter.com/fat" tabindex="-1" role="menuitem">Sign Out</a></li>
+                        </ul>
+                </div>
+                <ul class="top-btns">
+                	<li class="lineups"><a href="#" data-toggle="modal" data-target="#lineups">My Lineups</a></li>    
+                </ul>  
+            </div>
+        </div>
+    </div>
+</header>
+<!---------- lineup ---------------->
+   <div id="lineups" class="modal fade pop-bg">
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+      	<button aria-hidden="true" data-dismiss="modal" class="close close-btn" type="button"><span class="glyphicon glyphicon-remove"></span></button>
+        <div class="clearfix"></div>
+   		<div class="lineups-pop">
+			<h3>My Lineups</h3>
+            <ul class="lineups-list">
+            	<h4>East Coast</h4>
+                <li><img src="images/lineup1.jpg"></li>
+                <li><img src="images/lineup2.jpg"></li>
+                <li><img src="images/lineup3.jpg"></li>
+                <li><img src="images/lineup4.jpg"></li>
+                <span class="more-lineups"><a href="#">+ 10</a></span>
+            </ul>
+            <ul class="lineups-list">
+            	<h4>West Coast</h4>
+                <li><img src="images/lineup1.jpg"></li>
+                <li><img src="images/lineup2.jpg"></li>
+                <span class="more-lineups"><a href="#">+ 10</a></span>
+            </ul>
+            <ul class="lineups-list">
+            	<h4>East Coast</h4>
+                <li><img src="images/lineup1.jpg"></li>
+                <li><img src="images/lineup2.jpg"></li>
+                <li><img src="images/lineup3.jpg"></li>
+                <li><img src="images/lineup4.jpg"></li>
+                <span class="more-lineups"><a href="#">+ 10</a></span>
+            </ul>
+            <ul class="lineups-list">
+            	<h4>West Coast</h4>
+                <li><img src="images/lineup1.jpg"></li>
+                <li><img src="images/lineup2.jpg"></li>
+                <li><img src="images/lineup4.jpg"></li>
+                <span class="more-lineups"><a href="#">+ 10</a></span>
+            </ul>
+        </div>
+      </div>        
+    </div>
+   </div>
+<!---------- lineup END ---------------->  
+<!---------- login ---------------->
+   <div id="myModal" class="modal fade pop-bg">
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+      	<button aria-hidden="true" data-dismiss="modal" class="close close-btn" type="button"><span class="glyphicon glyphicon-remove"></span></button>
+        <div class="clearfix"></div>
+   		<div class="welcome">
+			<h3>Welcome</h3>
+            <div class="why-in">
+            	<a href="#"><img src="images/in.png"></a>
+            	<p><span style="font-weight:600;">Why only LinkedIn login? </span><br>
+In order to eliminate as much fraud, spam and other crap, ApartmentLinup requres a valid active LinkedIn account.</p> 
+<p>We will never intensionally post on your behalf, contract your friends and anything else creepy</p>
+				</p>
+            </div>
+        </div>
+      </div>        
+    </div>
+   </div>
+<!---------- login END ----------------> 
+<section class="header-nav">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<ul class="browse-search">
+                	<li><a href="#"><div class="global"><img src="images/near_me.png"><p> Global</p></div></a></li>
+                	<li><a href="#" data-toggle="modal" data-target="#add-lineups">Browse</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span> Search</a></li>
+                </ul>
+                <ul class="filter-nav">
+                	<li><a href="#" data-toggle="modal" data-target="#filter">Trending</a></li>
+                    <!--<li><a href="#">Most Popular</a></li>
+                    <li><a href="#">New</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------- Add Lineups ---------------->
+   <div id="add-lineups" class="modal fade pop-bg">
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+      	<button aria-hidden="true" data-dismiss="modal" class="close close-btn" type="button"><span class="glyphicon glyphicon-remove"></span></button>
+        <div class="clearfix"></div>
+   		<div class="addlineup">
+			<h3>Add to My Lineups</h3>
+            <div class="aprt-line">
+            	<p>Create a new lineup</p>
+            </div>
+            <p>or Select a Lineup Below</p>
+            <ul class="addlineup-list">
+            	<li class="check-active">
+                	<div class="select-lineup">
+                    	<input type="radio" name="radiog_lite" id="radio1" class="css-checkbox" /><label for="radio1" class="css-label radGroup1">West Cost</label>
+                    </div>
+                    <ul class="lineup-picks">
+                    	<li><a href="#"><img src="images/lineup1.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <span class="list-more"><a href="#">+ 10</a></span>
+                    </ul>
+                </li>
+                <li>
+                	<div class="select-lineup">
+                    	<input type="radio" name="radiog_lite" id="radio2" class="css-checkbox" /><label for="radio2" class="css-label radGroup1">West Cost</label>
+                    </div>
+                    <ul class="lineup-picks">
+                    	<li><a href="#"><img src="images/lineup1.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <span class="list-more"><a href="#">+ 10</a></span>
+                    </ul>
+                </li>
+                <li>
+                	<div class="select-lineup">
+                    	<input type="radio" name="radiog_lite" id="radio3" class="css-checkbox" /><label for="radio3" class="css-label radGroup1">West Cost</label>
+                    </div>
+                    <ul class="lineup-picks">
+                    	<li><a href="#"><img src="images/lineup1.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <span class="list-more"><a href="#">+ 10</a></span>
+                    </ul>
+                </li>
+                <li>
+                	<div class="select-lineup">
+                    	<input type="radio" name="radiog_lite" id="radio4" class="css-checkbox" /><label for="radio4" class="css-label radGroup1">West Cost</label>
+                    </div>
+                    <ul class="lineup-picks">
+                    	<li><a href="#"><img src="images/lineup1.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <li><a href="#"><img src="images/lineup2.jpg"></a></li>
+                        <span class="list-more"><a href="#">+ 10</a></span>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+      </div>        
+    </div>
+   </div>
+<!---------- Add Lineups END ----------------> 
+
+<!---------- Trending Filter ---------------->
+   <div id="filter" class="modal fade pop-bg">
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+      	<button aria-hidden="true" data-dismiss="modal" class="close close-btn" type="button"><span class="glyphicon glyphicon-remove"></span></button>
+        <div class="clearfix"></div>
+   		<div class="filter">
+			<h3>Filter</h3>
+            <ul class="filter-menu">
+            	<li><a href="#">Trending</a></li>
+            	<li><a href="#">Most Popular</a></li>
+                <li><a href="#">New</a></li>
+            </ul>
+        </div>
+      </div>        
+    </div>
+   </div>
+<!---------- Trending Filter END ----------------> 
+<section>
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart1.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart2.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart3.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart4.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart2.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart1.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart5.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart2.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart3.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart5.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart4.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center xs-center">
+            	<div class="apartment-grid">
+                	<div style="position:relative;">
+                	<img src="images/apart1.jpg">
+                    <div class="apart-img-overlay"><div class="zoom-plus"><a href="#"><span class="glyphicon glyphicon-plus"></span></a></div></div>
+                    </div>
+                    <h5>Menaggio Apartment</h5>
+                    <h6>Haslemere Road, EASTERTON</h6>
+                    <ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+            	<div class="loadmore"><a href="#">Load More</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-8 col-md-offset-2">
+            	<ul class="footer-nav">
+                	<li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <ul class="social-nav">
+                    <li><a href="#" class="fb-bottom"></a></li>
+                    <li><a href="#" class="twt-bottom"></a></li>
+                    <li><a href="#" class="in-bottom"></a></li>
+                    <li><a href="#" class="ytube-bottom"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!------------------------JS----------------------->
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+</body>
+</html>

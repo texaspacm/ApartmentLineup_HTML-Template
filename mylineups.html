@@ -1,0 +1,454 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Apartment Lineup</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300|Roboto:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet"  href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet"  href="css/style.css" type="text/css">
+</head>
+
+<body>
+<header>
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<div class="logo"></div>
+                <div class="user-pic dropdown navbar-right">
+                        <a href="#" data-toggle="dropdown" role="button" id="drop4"><img src="images/5.jpg"></a>
+                        <ul aria-labelledby="drop4" role="menu" class="dropdown-menu" id="menu1">
+                          <li role="presentation"><a href="http://twitter.com/fat" tabindex="-1" role="menuitem">Settings</a></li>
+                          <li role="presentation"><a href="http://twitter.com/fat" tabindex="-1" role="menuitem">Account Settings</a></li>
+                          <li role="presentation"><a href="http://twitter.com/fat" tabindex="-1" role="menuitem">Sign Out</a></li>
+                        </ul>
+                </div>
+                <ul class="top-btns">
+                	<li class="lineups"><a href="#" data-toggle="modal" data-target="#lineups">My Lineups</a></li>    
+                </ul>  
+            </div>
+        </div>
+    </div>
+</header>
+<!---------- lineup ---------------->
+   <div id="lineups" class="modal fade pop-bg">
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+      	<button aria-hidden="true" data-dismiss="modal" class="close close-btn" type="button"><span class="glyphicon glyphicon-remove"></span></button>
+        <div class="clearfix"></div>
+   		<div class="lineups-pop">
+			<h3>My Lineups</h3>
+            <ul class="lineups-list">
+            	<h4>East Coast</h4>
+                <li><img src="images/lineup1.jpg"></li>
+                <li><img src="images/lineup2.jpg"></li>
+                <li><img src="images/lineup3.jpg"></li>
+                <li><img src="images/lineup4.jpg"></li>
+                <span class="more-lineups"><a href="#">+ 10</a></span>
+            </ul>
+            <ul class="lineups-list">
+            	<h4>West Coast</h4>
+                <li><img src="images/lineup1.jpg"></li>
+                <li><img src="images/lineup2.jpg"></li>
+                <span class="more-lineups"><a href="#">+ 10</a></span>
+            </ul>
+            <ul class="lineups-list">
+            	<h4>East Coast</h4>
+                <li><img src="images/lineup1.jpg"></li>
+                <li><img src="images/lineup2.jpg"></li>
+                <li><img src="images/lineup3.jpg"></li>
+                <li><img src="images/lineup4.jpg"></li>
+                <span class="more-lineups"><a href="#">+ 10</a></span>
+            </ul>
+            <ul class="lineups-list">
+            	<h4>West Coast</h4>
+                <li><img src="images/lineup1.jpg"></li>
+                <li><img src="images/lineup2.jpg"></li>
+                <li><img src="images/lineup4.jpg"></li>
+                <span class="more-lineups"><a href="#">+ 10</a></span>
+            </ul>
+        </div>
+      </div>        
+    </div>
+   </div>
+<!---------- lineup END ---------------->  
+<!---------- login ---------------->
+   <div id="myModal" class="modal fade pop-bg">
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+      	<button aria-hidden="true" data-dismiss="modal" class="close close-btn" type="button"><span class="glyphicon glyphicon-remove"></span></button>
+        <div class="clearfix"></div>
+   		<div class="welcome">
+			<h3>Welcome</h3>
+            <div class="why-in">
+            	<a href="#"><img src="images/in.png"></a>
+            	<p><span style="font-weight:600;">Why only LinkedIn login? </span><br>
+In order to eliminate as much fraud, spam and other crap, ApartmentLinup requres a valid active LinkedIn account.</p> 
+<p>We will never intensionally post on your behalf, contract your friends and anything else creepy</p>
+				</p>
+            </div>
+        </div>
+      </div>        
+    </div>
+   </div>
+<!---------- login END ----------------> 
+<section class="header-nav">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+            	<ul class="browse-search">
+                	<li><a href="#"><div class="global"><span class="glyphicon glyphicon-globe"></span><p> Global</p></div></a></li>
+                	<li><a href="#">Browse</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#companydetails"><i class="icon-map-loactor"></i> Search</a></li>
+                </ul>
+                <ul class="filter-nav">
+                	<li><a href="#" data-toggle="modal" data-target="#filter">Trending</a></li>
+                    <!--<li><a href="#">Most Popular</a></li>
+                    <li><a href="#">New</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------- Company Details ---------------->
+   <div id="companydetails" class="modal fade pop-bg">
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+      		<button aria-hidden="true" data-dismiss="modal" class="close close-btn" type="button"><span class="glyphicon glyphicon-remove"></span></button>
+        	<div class="clearfix"></div>
+            <a href="#" class="pull-left"><div class="more-pics"><i class="icon-browse_map"></i></div></a>	
+            <div class="company-details">
+                <h3>Menaggio Apartment</h3>
+                <p>Haslemere Road, EASTERTON</p>
+            </div>
+            <div class="view-site"><a href="#">View Site</a></div>
+            <ul class="company-list">
+                <li><img src="images/lineup1.jpg"></li>
+                <li><img src="images/lineup2.jpg"></li>
+                <li><img src="images/lineup3.jpg"></li>
+                <li><img src="images/lineup4.jpg"></li>
+            </ul>
+            <div class="company-gallery">
+            	<img src="images/house.jpg">
+                <img src="images/apart3.jpg">
+            </div>
+            <div class="loadmore-popup"><a href="#">Load More</a></div>
+            <ul class="comments">
+            	<h3>Comments</h3>
+                <li>
+                <div class="comment-user"><a href="#"><img src="images/user.jpg"></a></div>
+                <div class="comment">
+                <h4>John Doe</h4>
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris
+. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+				</div>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+            <textarea class="add-comments" placeholder="Start typeing here..."></textarea>
+            <button class="comment-btn">Comment</button>
+      </div>        
+    </div>
+   </div>
+<!---------- Company Details END ----------------> 
+<!---------- Trending Filter ---------------->
+   <div id="filter" class="modal fade pop-bg">
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+      	<button aria-hidden="true" data-dismiss="modal" class="close close-btn" type="button"><span class="glyphicon glyphicon-remove"></span></button>
+        <div class="clearfix"></div>
+   		<div class="filter">
+			<h3>Filter</h3>
+            <ul class="filter-menu">
+            	<li><a href="#">Trending</a></li>
+            	<li><a href="#">Most Popular</a></li>
+                <li><a href="#">New</a></li>
+            </ul>
+        </div>
+      </div>        
+    </div>
+   </div>
+<!---------- Trending Filter END ----------------> 
+<section class="mb20">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+        		<h2>My Lineups</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="region active-region">
+	<div class="container-fluid">
+    	<div class="row">
+            <div class="col-md-12">
+                   <a data-toggle="collapse" data-parent="#accordion" href="#westregion"> West Region</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="westregion" class="panel-collapse collapse in">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-4 col-sm-6 col-xs-12 xs-center mtb10">
+            	<div class="region-grid">
+                	<div class="title-info">
+                        <h5>Menaggio Apartment</h5>
+                        <h6>Haslemere Road, EASTERTON</h6>
+                    </div>
+                    <div class="action">
+                    	<a class="region-link"><i class="icon-link"></i></a>
+                        <a class="del-icon"><i class="icon-trash"></i></a>
+                    </div>
+                </div>
+                <div class="region-grid">
+                	<ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                    <img src="images/apart3.jpg">
+                    <div class="loadmore"><a href="#">Load More</a></div>
+                    <div id="accordion">
+                      <div class="region-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                              Google Map 
+                              <span class="glyphicon glyphicon-plus collapse-icon"></span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <img src="images/map.jpg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="region-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                              Google+ Reviews
+                              <span class="glyphicon glyphicon-plus collapse-icon"></span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseT" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <img src="images/dummy.jpg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="region-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                              Office Hours
+                              <span class="glyphicon glyphicon-plus collapse-icon"></span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collee" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center mtb10">
+            	<div class="region-grid">
+                	<div class="title-info">
+                        <h5>Menaggio Apartment</h5>
+                        <h6>Haslemere Road, EASTERTON</h6>
+                    </div>
+                    <div class="action">
+                    	<a class="region-link"><i class="icon-link"></i></a>
+                        <a class="del-icon"><i class="icon-trash"></i></a>
+                    </div>
+                </div>
+                <div class="region-grid">
+                	<ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                    <img src="images/apart3.jpg">
+                    <div class="loadmore"><a href="#">Load More</a></div>
+                    <div id="accordion">
+                      <div class="region-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                              Google Map 
+                              <span class="glyphicon glyphicon-plus collapse-icon"></span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="region-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                              Google+ Reviews
+                              <span class="glyphicon glyphicon-plus collapse-icon"></span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <img src="images/dummy.jpg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="region-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                              Office Hours
+                              <span class="glyphicon glyphicon-plus collapse-icon"></span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapsee" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 xs-center mtb10">
+            	<div class="region-grid">
+                	<div class="title-info">
+                        <h5>Menaggio Apartment</h5>
+                        <h6>Haslemere Road, EASTERTON</h6>
+                    </div>
+                    <div class="action">
+                    	<a class="region-link"><i class="icon-link"></i></a>
+                        <a class="del-icon"><i class="icon-trash"></i></a>
+                    </div>
+                </div>
+                <div class="region-grid">
+                	<ul class="more-view">
+                    	<li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart1.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart3.jpg"></a></li>
+                        <li><a href="#"><img src="images/apart4.jpg"></a></li>
+                    </ul>
+                    <span class="all-show"><a href="#">+ 10</a></span>
+                    <img src="images/apart3.jpg">
+                    <div class="loadmore"><a href="#">Load More</a></div>
+                    <div id="accordion">
+                      <div class="region-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                              Google Map 
+                              <span class="glyphicon glyphicon-plus collapse-icon"></span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="region-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                              Google+ Reviews
+                              <span class="glyphicon glyphicon-plus collapse-icon"></span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="region-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                              Office Hours
+                              <span class="glyphicon glyphicon-plus collapse-icon"></span>
+                            </a>
+                          </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <img src="images/dummy2.jpg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="loadmore"><a href="#">Load More</a></div>
+    </div>
+</section>
+<section class="region">
+	<div class="container-fluid">
+    	<div class="row">
+            <div class="col-md-12">
+                    South Region
+            </div>
+        </div>
+    </div>
+</section>
+<section class="region mb20">
+	<div class="container-fluid">
+    	<div class="row">
+            <div class="col-md-12">
+                    North Region
+            </div>
+        </div>
+    </div>
+</section>
+<div class="clearfix"></div>            
+<footer>
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-8 col-md-offset-2">
+            	<ul class="footer-nav">
+                	<li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <ul class="social-nav">
+                    <li><a href="#" class="fb-bottom"></a></li>
+                    <li><a href="#" class="twt-bottom"></a></li>
+                    <li><a href="#" class="in-bottom"></a></li>
+                    <li><a href="#" class="ytube-bottom"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!------------------------JS----------------------->
+<script src="js/jquery.min.js"></script> 
+<script src="js/responsive-nav.min.js"></script>
+<script>
+      var navigation = responsiveNav(".nav-collapse");
+</script>
+<script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
